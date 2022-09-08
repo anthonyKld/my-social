@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: #0B0C10;
+}
+
+/*
+    Retira a barra de rolagem da pagina
+*/
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+img {
+    width: 100vw;
+}
+
+div.acesse {
+    text-align: center;
+    background-color: brown;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 700;
+}
+
+div > a {
+    color: white;
+    text-decoration: none;
+    background-color: brown;
+}
+
+div.acesse:hover, div > a:hover {
+    background-color: #6e0000;
+}
